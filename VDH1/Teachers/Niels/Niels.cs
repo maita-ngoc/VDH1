@@ -8,6 +8,6 @@ namespace VDH1.Teachers.Niels
 {
     class Niels
     {
-        public string FullName { get => "Niels Olesen"; }
+        public string FullName { get => "Niels Olesen (from NielsBranch)"; }
     }
 }
