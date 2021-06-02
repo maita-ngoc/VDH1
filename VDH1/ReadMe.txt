@@ -11,4 +11,3 @@ Neveau      : Rutineret
     - Projekt indeholder en folder "Students". I Students folder har hver elev fået et folder med elevens eget navn.
       Find jeres folder og opret klasse: "[jeresInitial].cs" med property "FullName" som returner jeres fuldenavn 
       (hardcoded!).
-    - 

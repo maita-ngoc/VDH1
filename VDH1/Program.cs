@@ -8,7 +8,7 @@ namespace VDH1
         // Code momments.
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Niels!");
+            Console.WriteLine((new Niels()).FullName);
         }
     }
 }
