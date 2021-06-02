@@ -7,7 +7,7 @@ namespace VDH1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine((new Niels()).FullName);
+            Console.WriteLine("Hello Niels!");
         }
     }
 }
