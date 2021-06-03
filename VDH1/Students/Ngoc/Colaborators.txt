@@ -1,0 +1,18 @@
+﻿CLONE:
+- Public repositories: Man kan klone en public repository ved at kende dens url.
+- Private repositories: 
+	+ Man skal være godkendt med SSH
+	+ Man skal bruge HTTPS og give brugernavn og adgangskode i URL
+	+ Man skal inviteres til at få adgang til repository
+COMMIT
+- Man kan commit til både Public og Private repository
+
+PUSH
+- Man kan ikke push til en public repository som tilhører andre ejere
+- Man kan push til en private repository som man få adgang til
+
+PULL
+- Man kan PULL from både private and public repository
+
+PULL REQUEST
+- Nye og ændret kode bliver ikke fusioneret (merge) tilbage direkte som ved en Push, men via en anmodning (pull request), om at der ønskes en push, men anmodningen skal accepteres af kodets oprindelige ejer. For at fortage en fork skal dette ske via den public git repository side
