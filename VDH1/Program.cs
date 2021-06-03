@@ -8,8 +8,7 @@ namespace VDH1
         // Code momments.
         static void Main(string[] args)
         {
-            Niels  n = new Niels("Niels", "Olesen");
-            Console.WriteLine(n.FirstName + " " + n.LastName);
+            Console.WriteLine((new Niels()).FullName);
         }
     }
 }
